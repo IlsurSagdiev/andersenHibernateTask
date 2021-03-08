@@ -24,7 +24,9 @@ public class Main {
 //            role.addUserToUserList(user1);
 //            role.addUserToUserList(user2);
 //            role.addUserToUserList(user3);
+            
             /**Add many Roles in One User**/
+            
 //            Role role1 = new Role("Admin");
 //            Role role2 = new Role("Director");
 //            Role role3 = new Role("User");
@@ -34,10 +36,12 @@ public class Main {
 //            user1.addUserRoleToUserRoleLit(role2);
 //            user1.addUserRoleToUserRoleLit(role3);
 //            session.persist(user1);
+            
             /**Get Users by Role**/
 
 //            Role role = session.get(Role.class,5);
 //            System.out.println(role.getUserList());
+            
             /**Get Roles by User**/
 
             User user = session.get(User.class, 1);
